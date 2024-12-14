@@ -7,7 +7,7 @@ class Game
 private :
 	// Window
 	sf::RenderWindow* window;
-
+	sf::Image icon;
 	//Resources
 	std::map <std::string, sf::Texture*> textures;
 	std::vector<Bullet*> bullets; 
