@@ -5,6 +5,9 @@ void Game::initWindow()
 	this->window = new sf::RenderWindow(sf::VideoMode(800,600), "Zathura: The Space Adventure", sf::Style::Close | sf::Style::Titlebar);
 	this->window->setFramerateLimit(60);
 	this->window->setVerticalSyncEnabled(false);
+
+	this->icon.loadFromFile("C:/Users/Prasham Desai/Desktop/Coding/C++ Games/Zathura/x64/Debug/Textures/ship.png");
+	this->window->setIcon(this->icon.getSize().x, this->icon.getSize().y, this->icon.getPixelsPtr());
 }
 
 void Game::initTextures()
