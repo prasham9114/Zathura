@@ -1,135 +1,106 @@
-Zathura: The Space Adventure
+# Zathura: The Space Adventure
 
 Zathura: The Space Adventure is a 2D arcade-style space shooter game built using C++ and SFML (Simple and Fast Multimedia Library). In this game, players navigate a spaceship, defeat enemies, and aim for a high score while surviving waves of enemy attacks.
 
-Table of Contents
+## Table of Contents
 
-Features
+- [Features](#features)
+- [Gameplay](#gameplay)
+- [Installation](#installation)
+- [How to Play](#how-to-play)
+- [Controls](#controls)
+- [Screenshots](#screenshots)
+- [Dependencies](#dependencies)
+- [Credits](#credits)
 
-Gameplay
+## Features
 
-Installation
+- **Dynamic Gameplay**:  
+  Dodge incoming enemies and projectiles. Shoot and destroy enemies to earn points.
+  
+- **Health Bar**:  
+  A visual representation of your spaceship's remaining health.
+  
+- **Game Over Screen**:  
+  Displays when the player’s health reaches zero.
+  
+- **Point Tracking**:  
+  Keep track of your score as you progress.
 
-How to Play
+- **Enemy Spawning**:  
+  Enemies spawn at random positions and move towards the player.
 
-Controls
+- **Smooth Animations**:  
+  Built with the high-performance SFML framework for smooth gameplay.
 
-Screenshots
-
-Dependencies
-
-Credits
-
-Features
-
-Dynamic Gameplay:
-
-Dodge incoming enemies and projectiles.
-
-Shoot and destroy enemies to earn points.
-
-Health Bar:
-
-A visual representation of your spaceship's remaining health.
-
-Game Over Screen:
-
-Displays when the player’s health reaches zero.
-
-Point Tracking:
-
-Keep track of your score as you progress.
-
-Enemy Spawning:
-
-Enemies spawn at random positions and move towards the player.
-
-Smooth Animations:
-
-Built with the high-performance SFML framework for smooth gameplay.
-
-Gameplay
+## Gameplay
 
 Take control of your spaceship to destroy enemies and survive for as long as possible. Dodge enemy ships and bullets to avoid damage. Your goal is to achieve the highest score possible!
 
-Installation
+## Installation
 
-Prerequisites
+### Prerequisites
 
-C++ Compiler (e.g., GCC, MSVC)
+- C++ Compiler (e.g., GCC, MSVC)
+- SFML 2.6.1 (or compatible version)
 
-SFML 2.6.1 (or compatible version)
+### Steps
 
-Steps
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/your-repo/zathura-game.git
+    ```
 
-Clone this repository to your local machine:
+2. Install SFML (if not already installed):
 
-git clone https://github.com/your-repo/zathura-game.git
+   **Linux**:
+    ```bash
+    sudo apt-get install libsfml-dev
+    ```
 
-Install SFML (if not already installed):
+   **Windows**:
+   - Download the precompiled SFML library from [SFML Downloads](https://www.sfml-dev.org/download.php).
+   - Configure your project to include SFML headers and libraries.
 
-Linux:
+3. Build the project:
 
-sudo apt-get install libsfml-dev
+   - Using Makefile:
+     ```bash
+     make
+     ```
 
-Windows:
+   - Using your IDE (e.g., Visual Studio or Code::Blocks):
+     - Add all source files to the project.
+     - Link SFML libraries (`graphics`, `window`, `system`).
 
-Download the precompiled SFML library from SFML Downloads.
+4. Run the executable:
+    ```bash
+    ./zathura
+    ```
 
-Configure your project to include SFML headers and libraries.
+## How to Play
 
-Build the project:
+1. Launch the game.
+2. Use the keyboard to move your spaceship and dodge enemies.
+3. Fire bullets to destroy enemies and earn points.
+4. Survive for as long as possible. When your health reaches zero, the game ends.
 
-Using Makefile:
+## Controls
 
-make
+- **W/A/S/D**: Move the spaceship (Up/Left/Down/Right).
+- **Mouse Left Button**: Shoot bullets.
+- **Escape**: Quit the game.
 
-Using your IDE (e.g., Visual Studio or Code::Blocks):
+## Dependencies
 
-Add all source files to the project.
+- **SFML 2.6.1**: Simple and Fast Multimedia Library for graphics, audio, and input.
 
-Link SFML libraries (graphics, window, system).
+## Credits
 
-Run the executable:
+- **Developer**: Prasham Desai
+- **Font**: Knight Warrior
+- **Game Assets**: Bullets and enemy sprites are sourced from your game’s asset library.
 
-./zathura
-
-How to Play
-
-Launch the game.
-
-Use the keyboard to move your spaceship and dodge enemies.
-
-Fire bullets to destroy enemies and earn points.
-
-Survive for as long as possible. When your health reaches zero, the game ends.
-
-Controls
-
-W/A/S/D: Move the spaceship (Up/Left/Down/Right).
-
-Mouse Left Button: Shoot bullets.
-
-Escape: Quit the game.
-
-Screenshots
-
-Add screenshots or gameplay visuals here to showcase your game. You can include images in your repository and reference them in the README:
-
-
-
-Dependencies
-
-SFML 2.6.1: Simple and Fast Multimedia Library for graphics, audio, and input.
-
-Credits
-
-Developer: Prasham Desai
-
-Font: Knight Warrior
-
-Game Assets:
-
-Bullets and enemy sprites are sourced from your game’s asset library.
+---
 
 Enjoy the game! Feel free to contribute or suggest improvements.
